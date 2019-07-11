@@ -1,5 +1,5 @@
 name: lua
-description: 非常快超轻量级的 C 语言开发的 XNL 解析库
+description: Lua 是一种轻量小巧的脚本语言，其设计目的是为了嵌入应用程序中，从而为应用程序提供灵活的扩展和定制功能
 keywords:                                      # 多标签
   - base
   - XML
@@ -7,6 +7,7 @@ author:
   name: Dave Gamble (original author), Max Bruckner (current maintainer)
 license: MIT                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
 homepage: https://www.lua.org
+logo: https://www.lua.org/images/lua-logo.gif
 
 depends:                                       # 该组件依赖其他的组件
   - libc
