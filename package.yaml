@@ -1,0 +1,29 @@
+name: lua
+description: 非常快超轻量级的 C 语言开发的 XNL 解析库
+keywords:                                      # 多标签
+  - base
+  - XML
+author:
+  name: Dave Gamble (original author), Max Bruckner (current maintainer)
+license: MIT                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
+
+depends:                                       # 该组件依赖其他的组件
+  - libc
+
+build_config:
+  include:
+    - src
+  cflag: C compile                             # C 编译器所需要要的编译参数
+  cxxflag: CXX compile                         # CXX 编译器所需要要的编译参数
+  asmflag: Assemble                            # 汇编器所需要要参数
+  define:                                      # 宏定义
+    - LUA_COMPAT_MATHLIB
+    - l_signalT=int
+
+source_file:
+  - "src/*.c"                                      # 支持通配符与正则表达示
+
+install:
+  - dest: "include/"
+    source:
+      - src/*.h
