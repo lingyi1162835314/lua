@@ -6,6 +6,7 @@ keywords:                                      # 多标签
 author:
   name: Dave Gamble (original author), Max Bruckner (current maintainer)
 license: MIT                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
+homepage: https://www.lua.org
 
 depends:                                       # 该组件依赖其他的组件
   - libc
