@@ -5,7 +5,7 @@ keywords:                                      # 多标签
   - XML
 author:
   name: Dave Gamble (original author), Max Bruckner (current maintainer)
-license: MIT222                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
+license: MIT222333                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
 homepage: https://www.lua.org
 logo: https://www.lua.org/images/lua-logo.gif
 
